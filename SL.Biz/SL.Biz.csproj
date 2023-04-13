@@ -63,11 +63,16 @@
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SL.CSMS.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Dev\_references\SL.CSMS.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SL.CSMS.Dao, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Dev\_references\SL.CSMS.Dao.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Net.Http">
-      <HintPath>..\..\_references\System.Net.Http.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -79,14 +84,6 @@
     <Compile Include="Wrapper\BasicBiz.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CSMS_V2\SL.CSMS.Common\0.SL.CSMS.Common.csproj">
-      <Project>{0C789105-3785-4413-BBF5-BD483244EA5C}</Project>
-      <Name>0.SL.CSMS.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\CSMS_V2\SL.CSMS.Dao\1.SL.CSMS.Dao.csproj">
-      <Project>{C0E26D18-DB8E-4BFA-A7D7-77E28FF48BC4}</Project>
-      <Name>1.SL.CSMS.Dao</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SL.DAO\SL.DAO.csproj">
       <Project>{73B8C803-27A1-4D8B-8EB9-A82193DF5AA3}</Project>
       <Name>SL.DAO</Name>
