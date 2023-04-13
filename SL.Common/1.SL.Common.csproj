@@ -86,6 +86,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetPath)" "..\\..\\..\\..\_references\\" /Y /E</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetPath)" "D:\Dev\_references" /Y /E</PostBuildEvent>
   </PropertyGroup>
 </Project>
