@@ -48,7 +48,8 @@ namespace SL.Dao.Services
             Csms,
             BaseService,
             CsmsService,
-            INSA
+            INSA,
+            CmsGlobal
         }
 
         #endregion
