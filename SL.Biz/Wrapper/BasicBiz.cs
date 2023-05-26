@@ -33,7 +33,7 @@ namespace SL.Biz.Services
     public class BasicBiz<T> where T : class, new()
     {
         //AGV 사용가능한 사이트 정보
-        readonly string[] isUseableSite = { "CO000001", "CO000011", "CO000012" }; //실리콘투, 3PL
+        readonly string[] isUseableSite = { "CO000001", "CO000011", "CO000012", "CO000007" }; //실리콘투, 3PL,미주지사
 
         /// <summary>
         /// AGV 사용가능한 사이트 정보
