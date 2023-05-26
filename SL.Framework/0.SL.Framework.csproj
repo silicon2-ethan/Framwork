@@ -65,7 +65,7 @@
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>True</SpecificVersion>
-      <HintPath>..\..\_references\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\Dev\_references\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -77,7 +77,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UrlBase64">
-      <HintPath>..\..\_references\UrlBase64.dll</HintPath>
+      <HintPath>D:\Dev\_references\UrlBase64.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
