@@ -167,6 +167,18 @@ namespace SL.Framework.Config
             }
         }
 
+        public static string IP_GREATER_2
+        {
+            get
+            {
+                var result = string.Empty;
+                var item = SectionConfig.ApprSettingInfo.Cast<DefaultElement>().FirstOrDefault(x => x.Name.Equals("IP_GREATER_2", StringComparison.OrdinalIgnoreCase));
+                if (item != null)
+                    result = item.Value;
+                return result;
+            }
+        }
+
         public static string IP_RESS
         {
             get
@@ -185,6 +197,18 @@ namespace SL.Framework.Config
             {
                 var result = string.Empty;
                 var item = SectionConfig.ApprSettingInfo.Cast<DefaultElement>().FirstOrDefault(x => x.Name.Equals("IAP_GREATER", StringComparison.OrdinalIgnoreCase));
+                if (item != null)
+                    result = item.Value;
+                return result;
+            }
+        }
+
+        public static string IAP_GREATER_2
+        {
+            get
+            {
+                var result = string.Empty;
+                var item = SectionConfig.ApprSettingInfo.Cast<DefaultElement>().FirstOrDefault(x => x.Name.Equals("IAP_GREATER_2", StringComparison.OrdinalIgnoreCase));
                 if (item != null)
                     result = item.Value;
                 return result;
